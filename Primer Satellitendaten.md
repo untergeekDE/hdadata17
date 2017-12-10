@@ -37,7 +37,7 @@ Tutorial bei Youtube gibt, heißt auch: die Welt braucht Leute, die eins machen.
 
 ## ESA, ESOC, EUMETSAT, ECMWF: Who's who?
 
-- ESA: 
+- ESA: Die Europäische Raumfahrtorganisation - 22 Mitgliedsstaaten, darunter mit Norwegen auch ein Nicht-EU-Staat
 - ESOC: Das europäische Satellitenkontrollzentrum, die Missionszentrale für alle ESA-Missionen, in Darmstadt. 
 - EUMETSAT: Internationale Organisation 30 europäischer Länder, die das METEOSAT-Programm betreibt. Sie kooperiert mit der ESA, ist aber von ihr
 unabhängig. Die Satelliten-Kontrollzentrale für die Satelliten des METEOSAT-Programms ist in Darmstadt. 
@@ -126,11 +126,14 @@ Ausgewertete Daten über Atmosphärendaten - Level 2 (liegen mit 5 Tagen Verzög
  
 ## Daten laden
 
-
-
+- wohl in der Regel im Datenformat NetCDF (ein Datenformat, das bei Meteorologen üblich ist)
+- Die Dateien sind in der Regel mehrere GB groß
+- Beim ECMWF gibt es auch aufgearbeitete Daten, u.a. Prognosen - allerdings kann man die nicht einfach herunterladen, sondern muss sich einen Downloader als Python-Skript zusammenklicken. 
+- In der Regel: Anmeldung erforderlich. 
 
 ## Erste Anlaufstellen ##
 
 - [**CODE-DE**](http://code-de.org) ist ein vom Bundesforschungsministerium bezahltes Datenportal für Sentinel-1 und Sentinel-2. 
 - [**Sentinel Playground**](http://apps.sentinel-hub.com/sentinel-playground/) Demo-Anwendung mit Sentinel-2-Daten eines slowenischen
 Startups, das die Sat-Karten aufbereitet und vermarktet
+- SAP HANA - ein Kooperationsprojekt, das aufgearbeitete Daten zur Verfügung stellt, über APIs und cloudbasierte Datendienste. [Presseinfo (mit Pressekontakt, evtl. anfragen)](https://news.sap.com/germany/sap-hana-esa-muenchner-rueck/)
