@@ -137,3 +137,10 @@ Ausgewertete Daten über Atmosphärendaten - Level 2 (liegen mit 5 Tagen Verzög
 - [**Sentinel Playground**](http://apps.sentinel-hub.com/sentinel-playground/) Demo-Anwendung mit Sentinel-2-Daten eines slowenischen
 Startups, das die Sat-Karten aufbereitet und vermarktet
 - SAP HANA - ein Kooperationsprojekt, das aufgearbeitete Daten zur Verfügung stellt, über APIs und cloudbasierte Datendienste. [Presseinfo (mit Pressekontakt, evtl. anfragen)](https://news.sap.com/germany/sap-hana-esa-muenchner-rueck/)
+
+## Tools ##
+
+- Von der ESA: SNAP, die "Sentinel Application Platform". [Tutorial-Seite auf der "Science Toolbox Exploitation Platform" (STEP)](http://step.esa.int/main/doc/tutorials/snap-tutorials/).
+- QGIS, ein Open-Source-Tool zur Visualisierung von Geodaten. [Hier ein Geodaten-Tutorial einer Consultingfirma](https://www.lutraconsulting.co.uk/blog/2017/11/02/working-with-climate-data-in-qgis/).
+- [Benutzerhandbuch SENTINEL CODE-DE (PDF)](https://code-de.org/de/manuals/CD-UM-3301DE_Benutzerhandbuch_v1.1_online.pdf)
+- [Die FAQ zur Web-API](https://software.ecmwf.int/wiki/display/WEBAPI/Web-API+FAQ) der ECMWF (s.o.)
