@@ -72,7 +72,17 @@ Streifen mit einer Auflösung von 5x5m ab. Im “Extra Wide Swath”-Modus taste
 
 Anwendungsgebiete: Eis-Messung, Ölverschmutzung, Seewinde, Landveränderung
 
-Datensätze:
+####Level-1-Produkte: 
+##### SLC - Single-Look Complex
+focused SAR data, geo-referenced using orbit and attitude data from the satellite, and provided in slant-range geometry. Slant range is the natural radar range observation coordinate, defined as the line-of-sight from the radar to each reflecting object. The products are in zero-Doppler orientation where each row of pixels represents points along a line perpendicular to the sub-satellite track.
+##### GRD - Ground-Range Detection
+products consist of focused SAR data that has been detected, multi-looked and projected to ground range using the Earth ellipsoid model WGS84. The ellipsoid projection of the GRD products is corrected using the terrain height specified in the product general annotation. The terrain height used varies in azimuth but is constant in range (but can be different for each IW/EW sub-swath).
+####Level-2-Produkte:
+##### OCN - Ocean
+    Ocean Wind field (OWI)
+    Ocean Swell spectra (OSW)
+    Surface Radial Velocity (RVL)
+Die Meeresdaten - mehr: https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/product-types-processing-levels/level-2
 
 ### Sentinel-2
 Eine fliegende Kamera, die verschiedene Lichtspektren beobachtet - gerade die, die das menschliche Auge nicht sehen kann, und da
@@ -95,6 +105,10 @@ Die Daten umfassen:
 - Hilfsdateninformation, die die verwendeten Parameter beschreibt
 - Qualitätsindikatordaten, die das Produkt in Bezug auf radiometrische, geometrische und Bildeigenschaften beschreiben.
 
+####Level-2
+##### BOA - Bottom of Atmosphere
+Satellitenfotos. Eigentlich ein Kunstprodukt - das von der Sentinel-Toolbox (bzw. anderen "Prozessoren") aus den Level-1C-Produkten errechnet wird. https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi/product-types/level-2a
+
 ### Sentinel-3
 
 Sentinel-3 ist: 
@@ -112,6 +126,26 @@ Datensätze:
 - Wassertemperatur
 - Kameras, die Vegetationen erkennen
 
+Sentinel-3 besteht aus 2 Systemen: 
+- OLCI (Ocean Land Colour Instrument), einer Multiband-Kamera https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/olci-instrument
+- SLSTI (Sea and Land Surface Temperature Radiometer), einem Bodenradar https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-slstr/instrument/description
+
+####Level-1-Daten
+####Level-2-Daten
+##### 
+#####
+#####
+#####
+
+    SL_2_WCT gathers the results from the Sea Surface Temperature (SST) processing (see algorithms), i.e. SST (single and dual view, 2 and 3 channels). This product is an internal product and is not available to users.
+    SL_2_WST gathers the results from L2P processing (see algorithms), i.e. the GHRSST like L2P SST.
+    SL_2_LST gathers the results from Land Surface Temperature (LST) processing (see algorithms), i.e. the LST.
+    SL_2_FRP gathers the results from Fire Radiative Power (FRP) processing (see algorithms), i.e. the FRP.
+    SL_2_AOD gathers the results from Aerosol Optical Depth (AOD) processing (see algorithms), i.e. the AOD
+    
+    OLCI:
+https://sentinels.copernicus.eu/web/sentinel/technical-guides/sentinel-3-olci/level-2/products-description
+
 ### Sentinel-5P
 Misst Atmosphärengase und Aerosole; kann also Aussagen über die Luftqualität und über Atmosphärenbedingungen 
 (Wolken!) liefern. “This means that a wide range of pollutants such as nitrogen dioxide, ozone, formaldehyde,
@@ -123,7 +157,9 @@ Ausgewertete Daten über Atmosphärendaten - Level 2 (liegen mit 5 Tagen Verzög
 - Methan
 - Ozon
 - SO2 Stickoxid
- 
+
+## Level-2-Produkte
+
 ## Daten laden
 
 - wohl in der Regel im Datenformat NetCDF (ein Datenformat, das bei Meteorologen üblich ist)
