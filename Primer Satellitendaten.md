@@ -35,6 +35,33 @@ Tutorial zu finden - und es gibt auch Open-Source-Software zur Nutzung der Daten
 Der Aufwand ist hoch - aber er lohnt sich: Hier wartet wirklich Neuland. Und dass es noch kein einfaches "Sentinel-Daten verarbeiten für Dummies"-
 Tutorial bei Youtube gibt, heißt auch: die Welt braucht Leute, die eins machen. Solche wie uns. 
 
+## Das Copernicus-Programm der EU ##
+
+- Die von der EU bezahlten ESA-Satelliten heißen **Sentinel**.
+- Das EU-Programm heißt **Copernicus**. 
+
+Die EU hat diese Satelliten bezahlt, die ESA hat sie gebaut und gestartet, EUMETSAT steuert einen Teil von ihnen, die ESA die anderen. 
+
+### Kosten/Nutzen ###
+
+Das Copernicus-Programm ist kein Schnäppchen: seit 2014 sind die europäischen Satelliten in Betrieb, bis dahin haben sie 
+die Steuerzahler rund 1,3 Milliarden Euro gekostet, bis 2020 werden es vermutlich weitere 4,3 Mrd. Euro sein. 
+
+Das Copernicus-Programm ist ein Schnäppchen: Die ESA rechnet vor, dass die Investitionen in etwa der Hälfte von dem entsprechen, 
+was ein Konzern wie Siemens im gleichen Zeitraum in Forschung und Entwicklung investiert - und dass sie einen extrem hohen 
+Gewinn versprechen: [Eine Studie schätzt](http://www.copernicus.eu/sites/default/files/library/4_Copernicus_User_Uptake_Strategy.pdf), dass
+die Daten im gleichen Zeitraum etwa 10 Mrd. an direktem volkswirtschaftlichem Nutzen produzieren - etwa durch Dienste, die die
+Daten zur Verbesserung der Gesundheit oder zur Bekämpfung von Problemen nutzen - und dass außerdem ein "Downstream"-Nutzen in Höhe
+von weiteren 3,5 Mrd. Euro entsteht - durch Innovationen, die im Umfeld des Satellitenprogramms möglich und nötig wurden. 
+
+Beispiele für Use-Cases: 
+- Luftverschmutzungs-Prognosekarten des ECMWF
+- Eine Warn-App für Asthmatiker: wann besser nicht nach Peking (Berlin, Paris, London...) fahren?
+- Eine UV-Warnkarte (des australischen Cancer Council Victoriy)
+- Die Luftqualitäts-Vorhersage bei Euronews
+
+
+
 ## ESA, ESOC, EUMETSAT, ECMWF: Who's who?
 
 - ESA: Die Europäische Raumfahrtorganisation - 22 Mitgliedsstaaten, darunter mit Norwegen auch ein Nicht-EU-Staat
