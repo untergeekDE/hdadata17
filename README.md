@@ -1,3 +1,7 @@
+Alle Informationen zur Nutzung von Sentinel-Satellitendaten sind migriert: 
+https://github.com/untergeekDE/Copernicus-Satellitendaten-nutzen
+
+
 # hdadata17 - Projektredaktion Wissenschafts- und Datenjournalismus #
 
 Arbeitsdokumente zum Seminar im 3. Sem. Onlinejournalismus an der Hochschule Darmstadt, FB Medien
